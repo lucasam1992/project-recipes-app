@@ -1,4 +1,4 @@
-# Boas ao projeto App de Receitas!
+# Boas vindas ao projeto App de Receitas!
 
  Projeto desenvolvido para o formato mobile, com o objetivo de possibilitar que o usuário busque, favorite e filtre receitas e drinks. Foram integradas ao projeto as APIs contendo as receitas e drinks.   
  

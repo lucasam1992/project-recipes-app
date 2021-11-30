@@ -12,7 +12,7 @@
   - Context API
   
 # Rodando o Projeto Localmente
-  1° `git clone <url_do_repositório>` - Clone o repositório para sua máquina<br />
+  1° `git clone git@github.com:lucasam1992/project-recipes-app.git` - Clone o repositório para sua máquina<br />
   2° `npm install` - Instale as depedências<br />
   3° `npm start` - Execute o programa<br />
   

@@ -1,6 +1,6 @@
 # Boas vindas ao projeto App de Receitas!
 
- Projeto CRUD Front-End desenvolvido para o formato mobile, com o objetivo de possibilitar que o usuário busque, favorite, acompanhe o processo de preparo da receita e drink e filtre ambas. Foram integradas ao projeto as APIs contendo as receitas e drinks.
+ Projeto CRUD Front-End desenvolvido para o formato mobile, com o objetivo de possibilitar que o usuário busque, favorite, filtre e acompanhe o processo de preparo da receita e do drink. Foram integradas ao projeto as APIs contendo as receitas e drinks.
  
  
 # Protótipo do Projeto 

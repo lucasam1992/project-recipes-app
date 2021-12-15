@@ -1,6 +1,5 @@
 {
-  "homepage": "http://lucasam1992.github.io/project-recipes-app",
-  "name": "project-recipes-app",
+  "name": "recipes-app-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +23,6 @@
     "websocket-extensions": ">=0.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "cy": "cypress run",
     "cy:open": "cypress open",
     "start": "react-scripts start",

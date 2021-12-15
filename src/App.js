@@ -25,9 +25,9 @@ function App() {
   return (
     <div>
       <FoodProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="https://lucasam1992.github.io/project-recipes-app">
           <Switch>
-            <Route exact path="/project-recipes-app" component={ Login } />
+            <Route exact path="/" component={ Login } />
             <Route exact path="/comidas" component={ Comidas } />
             <Route exact path="/bebidas" component={ Bebidas } />
             <Route exact path="/comidas/:id" component={ DetalhesComidas } />

@@ -28,33 +28,33 @@ function App() {
         <BrowserRouter>
           <Switch>
             <Route exact path="/project-recipes-app" component={ Login } />
-            <Route exact path="/project-recipes-app/comidas" component={ Comidas } />
-            <Route exact path="/project-recipes-app/bebidas" component={ Bebidas } />
-            <Route exact path="/project-recipes-app/comidas/:id" component={ DetalhesComidas } />
-            <Route exact path="/project-recipes-app/bebidas/:id" component={ DetalhesBebidas } />
-            <Route exact path="/project-recipes-app/comidas/:id/in-progress" component={ ProcessoComida } />
-            <Route exact path="/project-recipes-app/bebidas/:id/in-progress" component={ ProcessoBebida } />
-            <Route exact path="/project-recipes-app/explorar" component={ Explorar } />
-            <Route exact path="/project-recipes-app/explorar/comidas" component={ ExplorarComidas } />
-            <Route exact path="/project-recipes-app/explorar/bebidas" component={ ExplorarBebidas } />
+            <Route exact path="/comidas" component={ Comidas } />
+            <Route exact path="/bebidas" component={ Bebidas } />
+            <Route exact path="/comidas/:id" component={ DetalhesComidas } />
+            <Route exact path="/bebidas/:id" component={ DetalhesBebidas } />
+            <Route exact path="/comidas/:id/in-progress" component={ ProcessoComida } />
+            <Route exact path="/bebidas/:id/in-progress" component={ ProcessoBebida } />
+            <Route exact path="/explorar" component={ Explorar } />
+            <Route exact path="/explorar/comidas" component={ ExplorarComidas } />
+            <Route exact path="/explorar/bebidas" component={ ExplorarBebidas } />
             <Route
               exact
-              path="/project-recipes-app/explorar/comidas/ingredientes"
+              path="/explorar/comidas/ingredientes"
               component={ ExplorarComIngre }
             />
             <Route
               exact
-              path="/project-recipes-app/explorar/bebidas/ingredientes"
+              path="/explorar/bebidas/ingredientes"
               component={ ExplorarBebIngre }
             />
             <Route
               exact
-              path="/project-recipes-app/explorar/comidas/area"
+              path="/explorar/comidas/area"
               component={ ExplorarComidasAreas }
             />
-            <Route exact path="/project-recipes-app/perfil" component={ Perfil } />
-            <Route exact path="/project-recipes-app/receitas-feitas" component={ ReceitasFeitas } />
-            <Route exact path="/project-recipes-app/receitas-favoritas" component={ ReceitasFavoritas } />
+            <Route exact path="/perfil" component={ Perfil } />
+            <Route exact path="/receitas-feitas" component={ ReceitasFeitas } />
+            <Route exact path="/receitas-favoritas" component={ ReceitasFavoritas } />
             <Route component={ NotFound } />
           </Switch>
         </BrowserRouter>

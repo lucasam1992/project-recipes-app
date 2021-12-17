@@ -20,8 +20,9 @@
   
 # Rodando o Projeto Localmente
   1° `git clone https://github.com/lucasam1992/project-recipes-app.git` - Clone o repositório para sua máquina<br />
-  2° `npm install` - Instale as depedências<br />
-  3° `npm start` - Execute o programa<br />
+  2° `cd project-recipes-app` - Entre na pasta do repositório clonado<br />
+  3° `npm install` - Instale as depedências<br />
+  4° `npm start` - Execute o programa<br />
   
   Observação: Por se tratar de um projeto mobile, é necessário para melhor visualização dimensionar seu navegador para 360x640 
 
